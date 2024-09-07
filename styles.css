@@ -19,3 +19,12 @@ header {
     max-height: 100%;
     object-fit: cover;
 }
+
+.product-image {
+    max-width: 100%;   /* Faz a imagem se ajustar ao container */
+    height: auto;      /* Mantém a proporção da imagem */
+    max-height: 300px; /* Limita a altura máxima da imagem */
+    object-fit: cover; /* Garante que a imagem não distorça, cortando o excesso */
+    border-radius: 8px; /* Bordas arredondadas opcionais */
+}
+

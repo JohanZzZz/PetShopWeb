@@ -34,14 +34,6 @@
             object-fit: cover;
         }
 
-        .carousel-inner img {
-            width: 100%; /* Ajuste a largura conforme necessário */
-            height: 60vh; /* Ajuste a altura conforme necessário */
-            object-fit: contain; /* Mantém a proporção da imagem */
-            display: block;
-            margin: 0 auto; /* Centraliza a imagem */
-        }
-
         footer {
             background-color: #333;
             color: white;
@@ -57,78 +49,64 @@
         <h1>PetShop Online</h1>
         <nav>
             <a href="#" class="text-white">Home</a> | 
-            <a href="#produtos" class="text-white">Produtos</a> | 
-            <a href="#servicos" class="text-white">Serviços</a> | 
-            <a href="#cadastro-cliente" class="text-white">Cadastro</a> | 
-            <a href="#contato" class="text-white">Contato</a>
+            <a href="#" class="text-white">Produtos</a> | 
+            <a href="#" class="text-white">Serviços</a> | 
+            <a href="#" class="text-white">Cadastro</a>
         </nav>
     </header>
-
-    <!-- Carrossel de Produtos -->
-    <div id="productCarousel" class="carousel slide my-5" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/produto1.jpg" class="d-block mx-auto" alt="Produto 1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>GranPlus Adulto seca</h5>
-                    <p>Ração seca para grande porte</p>
-                    <p>R$100</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/produto2.jpg" class="d-block mx-auto" alt="Produto 2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pedigree Adulto</h5>
-                    <p>Ração seca para adultos premium</p>
-                    <p>R$150</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/produto3.jpg" class="d-block mx-auto" alt="Produto 3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pedigree úmida</h5>
-                    <p>Ração úmida para pequeno porte</p>
-                    <p>R$100</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/produto4.png" class="d-block mx-auto" alt="Produto 4">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pedigree úmida</h5>
-                    <p>Ração úmida para adultos grande porte</p>
-                    <p>R$140</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/produto5.png" class="d-block mx-auto" alt="Produto 5">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pedigree úmida</h5>
-                    <p>Ração úmida para filhotes</p>
-                    <p>R$135</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
 
     <!-- Conteúdo Principal -->
     <div class="container mt-5">
         <div class="row">
-            <!-- Produtos são exibidos no carrossel acima -->
+            <!-- Produto 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="product-item">
+                    <img src="img/produto1.jpg" alt="Produto 1" class="img-fluid">
+                    <h3>GranPlus Adulto seca</h3>
+                    <p> ração seca para grande porte</p>
+                    <span>R$ 100,00</span>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="product-item">
+                    <img src="img/produto2.jpg" alt="Produto 2" class="img-fluid">
+                    <h3>Pedigree Adulto</h3>
+                    <p> ração seca para adultos premium</p>
+                    <span>R$ 150,00</span>
+                </div>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="product-item">
+                    <img src="img/produto3.jpg" alt="Produto 3" class="img-fluid">
+                    <h3>Pedigree úmida</h3>
+                    <p> ração úmida para pequeno porte</p>
+                    <span>R$ 120,00</span>
+                </div>
+            </div>
+
+            <!-- Produto 4 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="product-item">
+                    <img src="img/produto4.png" alt="Produto 4" class="img-fluid">
+                    <h3>Pedigree úmida</h3>
+                    <p> ração úmida para adultos grande porte</p>
+                    <span>R$ 130,00</span>
+                </div>
+            </div>
+
+            <!-- Produto 5 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="product-item">
+                    <img src="img/produto5.png" alt="Produto 5" class="img-fluid">
+                    <h3>Pedigree úmida</h3>
+                    <p> ração úmida para filhotes</p>
+                    <span>R$ 200,00</span>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -220,21 +198,12 @@
                 <button type="submit" class="btn btn-primary">Agendar Serviço</button>
             </form>
         </div>
-    </section>
+    </section> 
+
 
     <!-- Rodapé -->
     <footer>
         <p>&copy; 2024 PetShop Online. Todos os direitos reservados.</p>
-        <p>Endereço: Rua dos Pets, 123 - São Paulo, SP</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>Email: contato@petshoponline.com.br</p>
-        <p>
-            <a href="#home" class="text-white">Home</a> |
-            <a href="#produtos" class="text-white">Produtos</a> |
-            <a href="#servicos" class="text-white">Serviços</a> |
-            <a href="#cadastro-cliente" class="text-white">Cadastro</a> |
-            <a href="#contato" class="text-white">Contato</a>
-        </p>
     </footer>
 
     <!-- Bootstrap JS e Popper.js -->

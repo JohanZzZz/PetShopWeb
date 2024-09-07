@@ -110,6 +110,97 @@
         </div>
     </div>
 
+    <section id="cadastro-cliente" class="my-5">
+        <div class="container">
+            <h2>Cadastro do Cliente</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereço" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar Cliente</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="cadastro-pet" class="my-5">
+        <div class="container">
+            <h2>Cadastro do Pet</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome-pet">Nome do Pet</label>
+                    <input type="text" class="form-control" id="nome-pet" placeholder="Digite o nome do pet" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipo-pet">Tipo de Animal</label>
+                    <select class="form-control" id="tipo-pet">
+                        <option>Cachorro</option>
+                        <option>Gato</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="raca">Raça</label>
+                    <input type="text" class="form-control" id="raca" placeholder="Digite a raça do pet">
+                </div>
+                <div class="form-group">
+                    <label for="temperamento">Temperamento</label>
+                    <select class="form-control" id="temperamento">
+                        <option>Calmo</option>
+                        <option>Agitado</option>
+                        <option>Agressivo</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar Pet</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="agendamento-servico" class="my-5">
+        <div class="container">
+            <h2>Agendamento de Serviço</h2>
+            <form>
+                <div class="form-group">
+                    <label for="servico">Serviço</label>
+                    <select class="form-control" id="servico">
+                        <option>Banho - Pequeno Porte</option>
+                        <option>Banho - Grande Porte</option>
+                        <option>Tosa - Pequeno Porte</option>
+                        <option>Tosa - Grande Porte</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data de Agendamento</label>
+                    <input type="date" class="form-control" id="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="hora">Horário de Agendamento</label>
+                    <input type="time" class="form-control" id="hora" required>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="telebusca">
+                    <label class="form-check-label" for="telebusca">
+                        Deseja tele-busca?
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Agendar Serviço</button>
+            </form>
+        </div>
+    </section>
+    
+
     <!-- Rodapé -->
     <footer>
         <p>&copy; 2024 PetShop Online. Todos os direitos reservados.</p>

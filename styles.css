@@ -1,9 +1,15 @@
 header {
+    background-color: orangered;
     margin-bottom: 20px;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white; 
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    color: white; 
 }
 
 .carousel-item {

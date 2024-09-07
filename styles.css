@@ -1,0 +1,15 @@
+header {
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 300px;
+}
+.carousel-item img {
+    max-height: 100%;
+    object-fit: cover;
+}

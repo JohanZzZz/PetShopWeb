@@ -3,7 +3,7 @@ header {
     margin-bottom: 20px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: white; 
+    color: orangered(238, 62, 8); 
 }
 
 .navbar-brand {

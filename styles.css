@@ -28,3 +28,11 @@ header {
     border-radius: 8px; /* Bordas arredondadas opcionais */
 }
 
+/* CSS customizado para garantir 5 colunas em telas grandes */
+@media (min-width: 768px) {
+    .col-md-custom {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
